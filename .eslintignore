@@ -1,0 +1,9 @@
+dist/
+node_modules/
+public/
+docs/
+
+*.config.ts
+*.config.js
+
+bootstrap.js

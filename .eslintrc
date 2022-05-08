@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "airbnb-typescript/base",
+    "prettier"
+  ],
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "plugins": ["@typescript-eslint", "import"],
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": [".*"],
+            "message": "Please use absolute path imports instead."
+          }
+        ]
+      }
+    ]
+  }
+}

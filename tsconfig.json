@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": ["ES2021", "DOM"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*", "dist/*"]
+    },
+    "sourceMap": true,
+    "outDir": "./dist",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended",
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules"]
+}
