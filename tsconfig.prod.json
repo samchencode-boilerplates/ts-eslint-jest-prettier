@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "sourceMap": false,
-    "module": "CommonJS"
+    "sourceMap": false
   },
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./tsconfig.json",

@@ -8,7 +8,7 @@
     },
     "sourceMap": true,
     "outDir": "./dist",
-    "module": "ES2015",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
